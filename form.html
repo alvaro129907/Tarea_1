@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <p>Es necesario llenar este formulario, una vez que termine enviaremos el libro a la direccion de correo que hayas escrito.</p>
+    <main>
+        <form action="Submit.js" method="POST">
+        <label for=""></label>
+        <label for="Nombre">Nombres:</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre" required readonly><br><br>
+
+
+        <label for="Apellido">Apellidos:</label><br>
+        <input type="text" name="Apellido" id="Apellido" placeholder="Escribe tu apellido" required><br><br>
+
+
+        <label for="Email">Correo electrónico:</label><br>
+        <input type="email" name="Email" id="Email" placeholder="tu_correo@gmail.com"><br><br>
+        
+        <label for="Teléfono">Telefono:</label><br>
+        <input type="tel"  name="Telefono" id="Telefono"  maxlength="13" minlength="7"><br><br>
+
+        
+
+        <span>Selecciona el formato en que deseas recibir el libro: </span>
+            <select name="Formatos" id="Formatos">
+                    <option value=".pdf">Pdf</option>
+                    <option value=".epub">Epub</option>
+                    <option value=".mobi">Movi</option>
+            </select><br><br>
+            
+            <p>Comentario:</p>
+            <textarea name="Descripcion" id="Descripcion" cols="40" rows="5"> ¿Por qué quiero leer este libro?
+                </textarea> <br><br>
+
+            <input type="checkbox" name="colors" value="blue" checked /> Deseo recibir mas información acerca de nuevos libros.<br /> <br>
+
+            <input type="submit" value="Submit" title="Enviar Respuestas">
+    
+        </form>
+    </main>
+
+</body>
+</html>
