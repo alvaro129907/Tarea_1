@@ -5,36 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libros PDF</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/img/lupa.png">
 </head>
 <body>
     <header>
-        <h1 id="aqui">&ensp;Libros Gratis PDF</h1>
-        
-    </header>
-    <nav class="navegacion">
-        <ul class="menu">
-            <li><a href="/index.html">Inicio</a></li>
-            <li ><a href="">Categorias</a>
-                <ul class="submenu" >
-                    <li><a href="">Aventura</a></li>
-                    <li><a href="">Ficcion</a></li>
-                    <li><a href="">Policial</a></li>
-                    <li><a href="">Romance</a></li>
-                    <li><a href="">Suspenso</a></li>
-
+        <div>
+            <div id="div_1">
+                <img src="/img/adobe-pdf-1.svg" id="logo_img" alt="">
+                <p id="aqui">Libros Gratis</p>
+            </div>
+            <nav class="navegacion" id="div_2">
+                <ul class="menu">
+                    <li ><a href="/index.html">Inicio</a></li>
+                    <li ><a href="">Categorias</a></li>
+                    <li><a href="/register.html" target="_blank">Registrarme</a></li>
+                    <li><a href="/login.html">Ingresar</a></li>
                 </ul>
-            </li>
-            <li><a href="/register.html" target="_blank">Registrarme</a></li>
-            <li><a href="/login.html">Ingresar</a></li> &ensp;&ensp;
-            <li><label for="search" id="buscar">Buscar: </label>
-                <input type="search" name="search" list="Lista_libros"></li>
-                <datalist id="Lista_libros">
-                    <option value="It">
-                    <option value="Los juegos del hambre">
-                  </datalist>
-        </ul>
-    </nav>
-
+            </nav>
+            <div id="div_3">
+                <div>
+                    <span><img src="/img/lupa.png" alt="" width="12px"></span>
+                    <input type="search" name="search" id="buscar" placeholder=" Buscar">
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <section>
             <article>
