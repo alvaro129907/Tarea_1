@@ -1,11 +1,10 @@
 *{
     margin: 0;
-   box-sizing: border-box;
 }
 header{
-    background:#29b6f6;
+    background:rgb(203, 230, 221);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
+    border: solid 1px rgb(190, 214, 206);;
 }
 header div{
     display: flex;
@@ -17,10 +16,13 @@ body{
 }
 h3{
     background: rgb(204, 228, 217);
+    padding: 2px;
+    margin:8px 0px;
 }
+
 #logo_img{
     width: 100px;
-    height: 80px;
+    height: 70px;
     margin: 12px;
 }
 #div_1{
@@ -32,7 +34,7 @@ h3{
 #div_1 p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
-    color: rgb(3, 83, 148);
+    color: rgb(89, 123, 151);
 }
 #div_2{
     flex: 2;
@@ -73,7 +75,7 @@ article{
 #buscar{
     background-color: white;
     border: 0;
-width: auto;
+    width: 110px;
 }
 #buscar::placeholder{
     color: rgb(104, 104, 104);
@@ -83,42 +85,40 @@ nav ul li a{
     text-decoration: none;
     border-radius: 12px;
     padding: 6px;
+    color: rgb(26, 71, 112);
 }
 
 .menu li a:hover{
     color:rgb(255, 255, 255) ;
-    background-color: rgb(81, 198, 224);
-    border: solid 1px rgb(76, 182, 206);
+    background-color: rgb(170, 219, 205);
+    border: solid 1px rgb(165, 209, 197);
     transition: all .4s;
 }
 
 /*Submenu*/
 
-.menu li:hover .submenu{
-    display: block;
-}
+/*Footer*/
 
 footer{
     text-align: center;
-    background: rgb(130, 167, 149);
-    padding: 1px 0px;
-    margin: auto 30px;
-    border: solid rgb(130, 138, 134) 1px;
+    background: rgb(203, 230, 221);
+    border:solid 1px rgb(193, 218, 209);
+}
+footer div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div ul li{
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .foot, ul{
     text-decoration: none;
     list-style: none;
     color: rgb(36, 25, 25);
 }
-#lista2 li{
-    position: relative;
-    display: inline-block;
-    margin: 1px 12px;  
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-
 .foot:hover{
-    color: blue;
+    color: rgb(15, 59, 255);
+    transition: all .4s;
 }
